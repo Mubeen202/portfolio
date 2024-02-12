@@ -1,28 +1,40 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
+  react,
+  node,
+  angular_js,
+  python_django,
+  django,
+  mongo_db,
+  mysql,
+  troon,
+  ncri,
+  it_routes,
+  bopayment,
+  fortra,
+  metaverse,
+  bamboo,
+  lagravate,
+  time_tables,
+  mysql_image,
+  sql,
+  drf,
+  postman,
+  haqana,
+  near,
+  flow,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  kubernetes,
+  aws,
+  jenkins
 } from "../assets";
 
 export const navLinks = [
@@ -38,36 +50,55 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+ 
 ];
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "React JS",
+    icon: react,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Angular JS",
+    icon: angular_js,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Node JS",
+    icon: node,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Python Django",
+    icon: python_django,
   },
+  {
+    title: "Mongo DB",
+    icon: mongo_db,
+  },
+  {
+    title: "MYSQL",
+    icon: mysql,
+  },
+  {
+    title: "Docker",
+    icon: docker,
+  },
+  {
+    title: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    title: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    title: "AWS Lambda",
+    icon: aws,
+  },
+ 
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -84,89 +115,113 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+ 
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Python Django",
+    icon: django,
+  },
+  {
+    name: "Django REST framework(DRF)",
+    icon: drf,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
+  
+
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MYSQL",
+    icon: mysql_image,
   },
   {
-    name: "git",
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "Git",
     icon: git,
   },
+
+  
+
   {
-    name: "figma",
-    icon: figma,
+    name: "Postman",
+    icon: postman,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "NEAR Blockchain",
+  //   icon: near,
+  // },
+  // {
+  //   name: "FLOW Blockchain",
+  //   icon: flow,
+  // },
+
+
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Haqana Corporate Sector Est.",
+    icon: haqana,
+    link:"https://www.haqanacsp.ae/",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2023 - January 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Full Stack Developer with expertise in Node.js and microservices architecture.",
+      "Proficient in deploying applications on AWS Lambda",
+      "Developing dynamic and responsive frontend using React.js",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Mern Stack Developer",
+    company_name: "Troon Technologies",
+    icon: troon,
+    link:"https://troontechnologies.com/",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2022 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working as a MERN developer at position with technologies Node js , React js , Express JS and Web3.0. FLow and NEAR blockchain integrate in application to get data and send transaction to the blockchain. Use Redux saga, Redux thunk and context api's for state management in applications.",
+      "Use Node mailer and twillo for sending mail and SMS. Use Pinata, Cloudinary cloud storage in application. Use Multer for local storge in application",
+      "Use JWT and Passport(JWT) authentication. Use Cookies session for store session of user in application. Use Postman for test Api's. Create and Use swagger for test Api's",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full Stack Developer",
+    company_name: "NCRI Inc.",
+    icon: ncri,
+    link:"https://ncri.com/",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2021 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a Full Stack Developer. My expertise included AngularJS for the front-end and Python Django, along with Django Rest Framework, for the back-end and MYSQL for the database management.",
+      "Implemented secure user authentication using JWT and Passport (JWT). My proficiency extends to using cookies for session management, conducting API testing with Postman and Swagger for API documentation.",
+      "Used Locust for Load testing.",
+      "Utilizing FTP and SFTP for cloud file management, and imposing Amazon Web Services(AWS) S3 bucket for efficient storage.",
+      "Deployment on Heroku server as well as Linux Server."
     ],
   },
+  {
+    title: "Mern Stack Developer",
+    company_name: "IT Routes, UK(Remote)",
+    icon: it_routes,
+    link:"https://www.haqanacsp.ae/",
+    iconBg: "#383E56",
+    date: "Nov 2020 - Apr 2021",
+    points: [
+      " Worked on JavaScript,TypeScript, React, JWT, Redux, NPM, Node JS, MongoDB. Learnt Agile methodologies in Software Development. Implemented Code first approach to design Databases. Built Restful services at backend and with WebAPIs and accessed it using React Js",
+      "Familiarity using Postman for API's development and reference. Use Cloudinary to cloud storage in application. Use Express Validator for validations and bank integration paypal",
+      " Use JWT Authentication and Authorization. Optimize images using Gimp and Inkscape. Use Azure and JIRA for teams to share code, track work, and ship software",
+    ],
+  },
+
 ];
 
 const testimonials = [
@@ -196,70 +251,206 @@ const testimonials = [
   },
 ];
 
+// const projects = [
+//   {
+//     name: "Bopayment",
+//     description:
+//       "BoPayment( Mini bank) Bo payment work on Front end React js nature of project is based NIUM and MSWIPE nature of project is leading global financial technology platform redefining the way consumers and businesses send, spend, and receive funds globally",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "mySql",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "bootstrap",
+//         color: "pink-text-gradient",
+//       },
+//       {
+//         name: ".Net Core",
+//         color: "blue-text-gradient",
+//       },
+//     ],
+//     image: bopayment,
+//     source_code_link: " https://bopayments.com/",
+//   },
+//   {
+//     name: "Fortra",
+//     description:
+//       "Fortra project work on backend in Node.js  and Web3.0 wallet integration with crypto ecosystem. Nature of project is connects buyers with sellers and tenants with landlords for highly user-friendly real estate experience.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "node",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "mongo_db",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "Flow_block_chain",
+//         color: "orange-text-gradient",
+//       },
+//     ],
+//     image: fortra,
+//     source_code_link: "https://fortra.io/",
+//   },
+//   {
+//     name: "Metaverse",
+//     description:
+//       " Meta verse is am Nft reward platform where user can play the game and get the Nfts In reward also can earn points and change it to nfts.  In this project we integrate the NEAR blockchain Web3.0 wallet Integration with our project.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "node.js",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "mongodb",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "NEAR_blockchain",
+//         color: "orange-text-gradient",
+//       },
+//     ],
+//     image: metaverse,
+//     source_code_link: "https://playtoearngames.com/",
+//   },
+//   {
+//     name: "Bamboo Hr",
+//     description:
+//       "BambooHR is a human resources information system (HRIS) that bundles HR features such as payroll, time tracking, employee engagement, an applicant tracking system (ATS) and more into one system. My contribution is just provide services on both front-end using AngularJs as well as back-end using Python-Django.",
+//     tags: [
+//       {
+//         name: "angular",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "python_dango",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "mySql",
+//         color: "blue-text-gradient",
+//       },
+
+//     ],
+//     image: bamboo,
+//     source_code_link: " https://www.bamboohr.com/b1/",
+//   },
+//   {
+//     name: "Lagravate",
+//     description:
+//       "Lagravate project where I was involved in both front-end development using AngularJS while back-end in Python Django. This project focused on entire recruitment process, from candidate discovery and screening to the final on boarding of qualified applicants."
+//     , tags: [
+//       {
+//         name: "Under Development to indicate that it's not live yet",
+//         color: "red-text-gradient",
+//       },
+//       {
+//         name: "angular",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "python_dango",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "mySql",
+//         color: "blue-text-gradient",
+//       },
+
+//     ],
+//     image: lagravate,
+//   },
+
+// ];
 const projects = [
   {
-    name: "Car Rent",
+        name: "Bopayment",
+        description:
+          "BoPayment( Mini bank) Bo payment work on Front end React js nature of project is based NIUM and MSWIPE nature of project is leading global financial technology platform redefining the way consumers and businesses send, spend, and receive funds globally",
+        tags: [
+          {
+            name: "react",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "mySql",
+            color: "green-text-gradient",
+          },
+          {
+            name: "bootstrap",
+            color: "pink-text-gradient",
+          },
+          {
+            name: ".Net Core",
+            color: "blue-text-gradient",
+          },
+        ],
+        image: bopayment,
+        source_code_link: " https://bopayments.com/",
+      },
+      {
+            name: "Metaverse",
+            description:
+              " Meta verse is am Nft reward platform where user can play the game and get the Nfts In reward also can earn points and change it to nfts.  In this project we integrate the NEAR blockchain Web3.0 wallet Integration with our project.",
+            tags: [
+              {
+                name: "react",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "node.js",
+                color: "green-text-gradient",
+              },
+              {
+                name: "mongodb",
+                color: "green-text-gradient",
+              },
+              {
+                name: "NEAR_blockchain",
+                color: "orange-text-gradient",
+              },
+            ],
+            image: metaverse,
+            source_code_link: "https://playtoearngames.com/",
+          },
+    {
+    name: "Times Tables",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+    "Developed an interactive math application for children's using React.js and Node.js. The project aims to reinforce fundamental arithmetic concepts while sparking a love for learning among children's through engaging exercises and interactive modules, the app creates an enjoyable learning experience, making math fun for young learners"
+    , tags: [
+     
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: time_tables,
+    source_code_link: "https://www.timestables.co.uk/6-times-table.html",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
